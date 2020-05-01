@@ -1,0 +1,12 @@
+div[data-reach-slider-track] {
+  background: var(--grey);
+}
+
+div[data-reach-slider-track-highlight] {
+  background: var(--accent-1);
+}
+
+div[data-reach-slider-handle] {
+  border: 2px solid var(--accent-2);
+  z-index: 0;
+}

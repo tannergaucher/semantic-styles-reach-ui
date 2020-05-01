@@ -1,0 +1,25 @@
+[data-reach-dialog-overlay] {
+  z-index: 1;
+}
+
+[data-reach-dialog-overlay] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+div[data-reach-dialog-content] {
+  position: relative;
+  background: var(--bg-2);
+  border-radius: var(--radius);
+}
+
+div[data-reach-dialog-content] {
+  width: 50vw;
+  margin: 10vh auto;
+  padding: var(--space-md);
+  outline: none;
+}
