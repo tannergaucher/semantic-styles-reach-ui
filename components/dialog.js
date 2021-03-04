@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 
-import { Dialog } from "@reach/dialog"
-import "@reach/dialog/styles.css"
+import { Dialog } from '@reach/dialog'
+import '@reach/dialog/styles.css'
 
 export default function DialogExample() {
   const [showDialog, setShowDialog] = useState(false)

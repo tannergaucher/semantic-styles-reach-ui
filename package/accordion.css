@@ -15,7 +15,7 @@ button[data-reach-accordion-button] {
   padding: var(--space-sm) var(--space-md);
   text-transform: none;
   background: var(--bg-2);
-  box-shadow: none;
+  box-shadow: var(--elevation-3);
   color: var(--accent-1);
 }
 
@@ -23,4 +23,6 @@ button[data-reach-accordion-button][aria-expanded='true'] {
   color: var(--text-color);
   border-color: var(--bg-1);
   border-bottom-color: var(--text-color);
+  box-shadow: var(--elevation-3);
+  background: var(--bg-2);
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'semantic-styles'
-// PACKAGE
+// semantic styles X reach UI package
 import './index.css'
 
 import {
@@ -16,7 +16,7 @@ import {
   Tooltip,
 } from './components'
 
-function App() {
+function Page() {
   return (
     <div className="page padding container">
       <h1 className="title" style={{ marginBlockStart: `var(--space-xl)` }}>
@@ -60,4 +60,4 @@ function App() {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Page />, document.getElementById('root'))

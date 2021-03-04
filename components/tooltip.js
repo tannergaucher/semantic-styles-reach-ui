@@ -17,7 +17,10 @@ export default function TooltipExample() {
         </button>
       </Tooltip>
       <div style={{ float: 'right' }}>
-        <Tooltip label="Notifications" ariaLabel="3 Notifications">
+        <Tooltip
+          label="Oh, hi there. I'm a tooltip with probably more text than I  should  have. Yet, nevertheless, I'm here, at your service."
+          ariaLabel="3 Notifications"
+        >
           <button style={{ fontSize: 25 }}>
             <span>🔔</span>
             <span>3</span>

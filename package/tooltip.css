@@ -9,4 +9,6 @@ div[data-reach-tooltip] {
   border-radius: var(--radius);
   border: var(--thickness) solid var(--bg-2);
   box-shadow: var(--elevation-1);
+  max-width: 300px !important;
+  white-space: normal !important;
 }
