@@ -1,8 +1,8 @@
-@import url('./components/accordion.css');
-@import url('./components/alert-dialog.css');
-@import url('./components/combo-box.css');
-@import url('./components/dialog.css');
-@import url('./components/menu-button.css');
-@import url('./components/slider.css');
-@import url('./components/tabs.css');
-@import url('./components/tooltip.css');
+@import url('./package/accordion.css');
+@import url('./package/alert-dialog.css');
+@import url('./package/combo-box.css');
+@import url('./package/dialog.css');
+@import url('./package/menu-button.css');
+@import url('./package/slider.css');
+@import url('./package/tabs.css');
+@import url('./package/tooltip.css');

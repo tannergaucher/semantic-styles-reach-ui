@@ -26,4 +26,5 @@ a[data-reach-menu-item] {
 div[data-reach-menu-item][data-selected],
 a[data-reach-menu-item][data-selected] {
   background: var(--accent-2);
+  transition: var(--transition);
 }
