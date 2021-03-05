@@ -21,9 +21,17 @@ function Page() {
   // set tokens values from  json || query params
   return (
     <div className="page padding container">
-      <h1 className="title" style={{ marginBlockStart: `var(--space-xl)` }}>
-        Semantic Styles X Reach UI
-      </h1>
+      <a className="nav-link" href="/">
+        <h1
+          className="title"
+          style={{
+            marginBlockStart: `var(--space-xl)`,
+            marginBlockEnd: `var(--space-md)`,
+          }}
+        >
+          Semantic Styles X Reach UI
+        </h1>
+      </a>
       <hr className="hr" />
       <h2>Accordion</h2>
       <Accordion />
@@ -49,15 +57,17 @@ function Page() {
       <h2>Tooltip</h2>
       <Tooltip />
       <hr className="hr" />
-      <h3
-        className="title"
-        style={{
-          marginBlockStart: `var(--space-xl)`,
-          marginBlockEnd: `var(--space-xl)`,
-        }}
-      >
-        Semantic Styles X Reach UI
-      </h3>
+      <a href="/" className="nav-link">
+        <h3
+          className="title"
+          style={{
+            marginBlockStart: `var(--space-xl)`,
+            marginBlockEnd: `var(--space-xl)`,
+          }}
+        >
+          Semantic Styles X Reach UI
+        </h3>
+      </a>
     </div>
   )
 }
