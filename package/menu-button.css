@@ -27,4 +27,15 @@ div[data-reach-menu-item][data-selected],
 a[data-reach-menu-item][data-selected] {
   background: var(--accent-2);
   transition: var(--transition);
+  border-radius: var(--radius);
+}
+
+div[data-reach-menu-item][data-selected]:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+a[data-reach-menu-item][data-selected]:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
 }

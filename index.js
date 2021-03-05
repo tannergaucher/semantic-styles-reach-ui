@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'semantic-styles'
-// semantic styles X reach UI package
+// Package
 import './index.css'
 
 import {
@@ -14,9 +14,11 @@ import {
   Slider,
   Tabs,
   Tooltip,
-} from './components'
+} from './reach-ui-components'
 
 function Page() {
+  // import tokens
+  // set tokens values from  json || query params
   return (
     <div className="page padding container">
       <h1 className="title" style={{ marginBlockStart: `var(--space-xl)` }}>

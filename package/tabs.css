@@ -1,4 +1,5 @@
 div[data-reach-tab-list] {
+  background-color: var(--bg-1);
 }
 
 button[data-reach-tab] {
@@ -26,6 +27,5 @@ button[data-reach-tab]:hover {
 button[data-reach-tab][data-selected] {
   border-bottom-width: var(--thickness);
   border-bottom-color: var(--accent-1);
-  filter: opacity(1);
   color: var(--href-hover-color);
 }
