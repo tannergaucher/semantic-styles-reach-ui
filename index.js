@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'semantic-styles'
-// Package
-import './index.css'
+
+import './index.css' // Package
 
 import {
   Accordion,
@@ -17,8 +17,6 @@ import {
 } from './reach-ui-components'
 
 function Page() {
-  // import tokens
-  // set tokens values from  json || query params
   return (
     <div className="page padding container">
       <a className="nav-link" href="/">
@@ -48,7 +46,7 @@ function Page() {
       <h2>Menu Button</h2>
       <MenuButton />
       <hr className="hr" />
-      <h2>Slider </h2>
+      <h2>Slider</h2>
       <Slider />
       <hr className="hr" />
       <h2>Tabs</h2>
